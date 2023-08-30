@@ -16,5 +16,12 @@ function isPrime(number) {
             return false;
         }
     }
+    return true;
+}
 
-    
+const numToCheck = 31; 
+if (isPrime(numToCheck)) {
+    console.log(`${numToCheck} is a prime number.`);
+} else {
+    console.log(`${numToCheck} is not a prime number.`);
+}
